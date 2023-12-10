@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+/* navbar section  */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 20px 100px;
+}
+
+#icondiv {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-content: center;
+    justify-content: space-between;
+}
+#icondiv>h1{
+    font-size: 30px;
+}
+
+
+#buttondiv {
+   
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#buttondiv>ul {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#buttondiv>ul>li {
+    list-style: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.watchlive {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+     justify-content: center;
+    border-radius: 5px;
+    background-color: #D00;
+    font-size: 18px;
+    color: #FFF;
+    border: none;
+    padding: 10px 40px;
+   
+}
+
+/* section end  */
+
+/* baaner section  */
+#bannersection {
+    padding: 20px 100px;
+}
+
+#bannerSecMenudiv {
+    padding: 40px 80px 0 80px;
+    background-color: #161616;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    align-items: end;
+    border-radius: 20px;
+    gap: 80px;
+}
+
+#bannerTextdiv {
+   padding-bottom: 45px;
+
+}
+
+#bannerTextdiv>h1 {
+    padding: 0;
+    margin: 0;
+color: white;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+#bannerTextdiv>p {
+    font-size: 16px;
+color: white;
+    line-height: 26px;
+}
+
+
+#bannerimg>img {
+    height: 520px;
+    width: 440px;
+
+}
+
+.watchlivbtn {
+    display: flex;
+    align-items: center;
+    background-color: #D00;
+    color: white;
+    border: none;
+    padding: 0 40px;
+}
+
+/* banner section end */
+/*  card section started */
+
+
+
+#cardsection {
+    display: grid;
+    padding: 20px 100px;
+    grid-template-columns: 25% 75%;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 24px;
+}
+
+#formdiv {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    border-radius: 20px;
+    gap: 20px;
+    align-items: center;
+    background-color: #161616;
+    justify-content: center;
+}
+
+#formdiv>button {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    color: #161616;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#formdiv>#redbutton {
+    background-color: #D00;
+    color: #FFF;
+}
+
+#cardmajordiv {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carddiv {
+    padding-top: 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(231, 226, 226);
+}
+
+
+.carddiv>img {
+    width: 260px;
+}
+
+.cardtextdiv {
+    display: grid;
+    padding: 15px 12px;
+    grid-template-columns: minmax(1, 1fr);
+    justify-content: center;
+
+}
+
+.cardtextdiv>button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #161616;
+    padding: 4px 16px;
+    width: 100px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: 1px solid #161616;
+}
+
+.cardtextdiv>h4 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.commitdiv {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 25px;
+}
+
+.commentimg {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+}
+
+/* footer section end  */
+
+footer {
+    padding: 80px 50px;
+    background-color: #161616;
+}
+
+#footermaindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+#footermaindiv>h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+hr {
+    width: 1000px;
+    border-radius: 1px solid rgb(78, 77, 77);
+}
+
+#footermenudiv>ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+
+#footermenudiv>ul>li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B9B9B9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    /* <!-- navbar section  --> */
+    section {
+
+        padding: 10px 20px;
+    }
+
+    #icondiv {
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
+        text-align: center;
+    }
+
+    #buttondiv {
+
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+    }
+
+    #buttondiv>button {
+        padding: 5px 0;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    /* banner section  */
+
+    #bannersection {
+        padding: 10px 20px;
+
+    }
+
+    #bannerSecMenudiv {
+        padding: 10px 20px 0 20px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        border-radius: 10px;
+        gap: 20px;
+    }
+
+    #bannerTextdiv {
+        padding: 45px;
+    }
+
+    #bannerTextdiv>h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+        color: white;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    #bannerTextdiv>p {
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        line-height: 40px;
+    }
+
+
+    #bannerimg {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+
+    }
+
+    #bannerimg>img {
+        height: 300px;
+        width: 290px;
+    }
+
+    span {
+        display: none;
+    }
+
+
+    /* card section  */
+
+    #cardsection {
+
+        padding: 10px 20px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+        #formdiv {
+            gap: 10px;
+            background-color: white;
+        }
+
+        
+
+        #cardmajordiv {
+           
+            gap: 10px;
+            grid-template-columns: repeat(1, 1fr);
+           
+        }
+
+        .carddiv>img {
+            width: 330px;
+        }
+
+        .cardtextdiv {
+            display: grid;
+            padding: 15px 12px;
+            grid-template-columns: minmax(1, 1fr);
+            justify-content: center;
+
+        }
+
+        .cardtextdiv>button {
+            font-size: 18px;
+          
+        }
+
+        .cardtextdiv>h4 {
+            font-size: 18px;
+          
+        }
+
+       /* footer section  */
+
+
+      
+    
+    
+    #footermaindiv {
+      padding: 30px 40px;
+
+    }
+    
+    #footermaindiv>h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    hr {
+        width: 200px;
+      
+    }
+    
+    #footermenudiv>ul {
+       
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    
+    
+    
+    
+
+
+
+    }
